@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F22B549A2B596B5300F3CF37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54992B596B5300F3CF37 /* main.swift */; };
 		F22B54A12B59717900F3CF37 /* AlphabetGuessingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */; };
+		F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		F22B54962B596B5300F3CF37 /* MySwiftSandBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MySwiftSandBox; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22B54992B596B5300F3CF37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetGuessingGame.swift; sourceTree = "<group>"; };
+		F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySumCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				F22B54992B596B5300F3CF37 /* main.swift */,
 				F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */,
+				F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */,
 			);
 			path = MySwiftSandBox;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				F22B549A2B596B5300F3CF37 /* main.swift in Sources */,
 				F22B54A12B59717900F3CF37 /* AlphabetGuessingGame.swift in Sources */,
+				F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

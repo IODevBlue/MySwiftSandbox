@@ -7,6 +7,6 @@
 
 import Foundation
 
-let agg = AlphabetGuessingGame()
+let agg = ArraySumCalculator()
 
 agg.exec()
