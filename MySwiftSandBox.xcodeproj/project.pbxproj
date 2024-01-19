@@ -10,6 +10,8 @@
 		F22B549A2B596B5300F3CF37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54992B596B5300F3CF37 /* main.swift */; };
 		F22B54A12B59717900F3CF37 /* AlphabetGuessingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */; };
 		F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */; };
+		F2A28EE02B5A6C4D009CF589 /* AverageNumberCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A28EDF2B5A6C4D009CF589 /* AverageNumberCalculator.swift */; };
+		F2A28EE22B5A6FA4009CF589 /* BinaryConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A28EE12B5A6FA4009CF589 /* BinaryConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		F22B54992B596B5300F3CF37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetGuessingGame.swift; sourceTree = "<group>"; };
 		F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySumCalculator.swift; sourceTree = "<group>"; };
+		F2A28EDF2B5A6C4D009CF589 /* AverageNumberCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageNumberCalculator.swift; sourceTree = "<group>"; };
+		F2A28EE12B5A6FA4009CF589 /* BinaryConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				F22B54992B596B5300F3CF37 /* main.swift */,
 				F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */,
 				F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */,
+				F2A28EDF2B5A6C4D009CF589 /* AverageNumberCalculator.swift */,
+				F2A28EE12B5A6FA4009CF589 /* BinaryConverter.swift */,
 			);
 			path = MySwiftSandBox;
 			sourceTree = "<group>";
@@ -127,7 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F22B549A2B596B5300F3CF37 /* main.swift in Sources */,
+				F2A28EE22B5A6FA4009CF589 /* BinaryConverter.swift in Sources */,
 				F22B54A12B59717900F3CF37 /* AlphabetGuessingGame.swift in Sources */,
+				F2A28EE02B5A6C4D009CF589 /* AverageNumberCalculator.swift in Sources */,
 				F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

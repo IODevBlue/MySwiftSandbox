@@ -7,6 +7,6 @@
 
 import Foundation
 
-let agg = ArraySumCalculator()
+let agg = AverageNumberCalculator()
 
 agg.exec()
