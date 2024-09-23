@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20883132CA1B73F009D83F8 /* my_c_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = F20883122CA1B73F009D83F8 /* my_c_functions.c */; };
+		F20883162CA1C70D009D83F8 /* my_cpp_library.hpp in Sources */ = {isa = PBXBuildFile; fileRef = F20883152CA1C70D009D83F8 /* my_cpp_library.hpp */; };
+		F20883182CA1C97E009D83F8 /* MyCppWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = F20883172CA1C97E009D83F8 /* MyCppWrapper.mm */; };
 		F22B549A2B596B5300F3CF37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54992B596B5300F3CF37 /* main.swift */; };
 		F22B54A12B59717900F3CF37 /* AlphabetGuessingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */; };
 		F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */; };
@@ -28,6 +31,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F20883112CA1B73F009D83F8 /* my_c_functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_c_functions.h; sourceTree = "<group>"; };
+		F20883122CA1B73F009D83F8 /* my_c_functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_c_functions.c; sourceTree = "<group>"; };
+		F20883152CA1C70D009D83F8 /* my_cpp_library.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = my_cpp_library.hpp; sourceTree = "<group>"; };
+		F20883172CA1C97E009D83F8 /* MyCppWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyCppWrapper.mm; sourceTree = "<group>"; };
+		F20883192CA1C9A0009D83F8 /* MyCppWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCppWrapper.h; sourceTree = "<group>"; };
 		F22B54962B596B5300F3CF37 /* MySwiftSandBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MySwiftSandBox; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22B54992B596B5300F3CF37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetGuessingGame.swift; sourceTree = "<group>"; };
@@ -50,6 +58,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F20883102CA1B2AD009D83F8 /* C Files */ = {
+			isa = PBXGroup;
+			children = (
+				F20883112CA1B73F009D83F8 /* my_c_functions.h */,
+				F20883122CA1B73F009D83F8 /* my_c_functions.c */,
+			);
+			path = "C Files";
+			sourceTree = "<group>";
+		};
+		F20883142CA1C6ED009D83F8 /* CPP Files */ = {
+			isa = PBXGroup;
+			children = (
+				F20883152CA1C70D009D83F8 /* my_cpp_library.hpp */,
+				F20883172CA1C97E009D83F8 /* MyCppWrapper.mm */,
+				F20883192CA1C9A0009D83F8 /* MyCppWrapper.h */,
+			);
+			path = "CPP Files";
+			sourceTree = "<group>";
+		};
 		F22B548D2B596B5300F3CF37 = {
 			isa = PBXGroup;
 			children = (
@@ -69,9 +96,12 @@
 		F22B54982B596B5300F3CF37 /* MySwiftSandBox */ = {
 			isa = PBXGroup;
 			children = (
+				F20883142CA1C6ED009D83F8 /* CPP Files */,
+				F20883102CA1B2AD009D83F8 /* C Files */,
 				F2AC9E202CA1781000B28D25 /* Objective-C Files */,
 				F2BEFDA72C9787C20044497E /* Genin Tasks */,
 				F22B54992B596B5300F3CF37 /* main.swift */,
+				F2AC9E232CA1790B00B28D25 /* MySwiftSandBox-Bridging-Header.h */,
 			);
 			path = MySwiftSandBox;
 			sourceTree = "<group>";
@@ -81,7 +111,6 @@
 			children = (
 				F2AC9E222CA178D100B28D25 /* MyObjCClass.h */,
 				F2AC9E242CA1790B00B28D25 /* MyObjCClass.m */,
-				F2AC9E232CA1790B00B28D25 /* MySwiftSandBox-Bridging-Header.h */,
 			);
 			path = "Objective-C Files";
 			sourceTree = "<group>";
@@ -156,12 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20883182CA1C97E009D83F8 /* MyCppWrapper.mm in Sources */,
 				F22B549A2B596B5300F3CF37 /* main.swift in Sources */,
 				F2A28EE22B5A6FA4009CF589 /* BinaryConverter.swift in Sources */,
+				F20883132CA1B73F009D83F8 /* my_c_functions.c in Sources */,
 				F22B54A12B59717900F3CF37 /* AlphabetGuessingGame.swift in Sources */,
 				F2A28EE02B5A6C4D009CF589 /* AverageNumberCalculator.swift in Sources */,
 				F2AC9E252CA1790B00B28D25 /* MyObjCClass.m in Sources */,
 				F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */,
+				F20883162CA1C70D009D83F8 /* my_cpp_library.hpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +327,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftSandBox/Objective-C Files/MySwiftSandBox-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftSandBox/MySwiftSandBox-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -310,7 +342,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftSandBox/Objective-C Files/MySwiftSandBox-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftSandBox/MySwiftSandBox-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

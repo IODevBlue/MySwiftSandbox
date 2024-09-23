@@ -7,6 +7,9 @@
 
 import Foundation
 
+let cppWrapper = MyCppWrapper()
+let result = cppWrapper.add(withA: 3, b: 5)
+print("Sum: \(result)") // Output: Sum: 8
 
-let obj = MyObjCClass()
-obj.sayHello() // Calls the Objective-C method
+cppWrapper.greet(withName: "John") // Output: Hello, John!
+
