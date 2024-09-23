@@ -7,6 +7,6 @@
 
 import Foundation
 
-let agg = AverageNumberCalculator()
 
-agg.exec()
+let obj = MyObjCClass()
+obj.sayHello() // Calls the Objective-C method

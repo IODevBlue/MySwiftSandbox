@@ -12,6 +12,7 @@
 		F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */; };
 		F2A28EE02B5A6C4D009CF589 /* AverageNumberCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A28EDF2B5A6C4D009CF589 /* AverageNumberCalculator.swift */; };
 		F2A28EE22B5A6FA4009CF589 /* BinaryConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A28EE12B5A6FA4009CF589 /* BinaryConverter.swift */; };
+		F2AC9E252CA1790B00B28D25 /* MyObjCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC9E242CA1790B00B28D25 /* MyObjCClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,9 @@
 		F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySumCalculator.swift; sourceTree = "<group>"; };
 		F2A28EDF2B5A6C4D009CF589 /* AverageNumberCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageNumberCalculator.swift; sourceTree = "<group>"; };
 		F2A28EE12B5A6FA4009CF589 /* BinaryConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryConverter.swift; sourceTree = "<group>"; };
+		F2AC9E222CA178D100B28D25 /* MyObjCClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObjCClass.h; sourceTree = "<group>"; };
+		F2AC9E232CA1790B00B28D25 /* MySwiftSandBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySwiftSandBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2AC9E242CA1790B00B28D25 /* MyObjCClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObjCClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +69,32 @@
 		F22B54982B596B5300F3CF37 /* MySwiftSandBox */ = {
 			isa = PBXGroup;
 			children = (
+				F2AC9E202CA1781000B28D25 /* Objective-C Files */,
+				F2BEFDA72C9787C20044497E /* Genin Tasks */,
 				F22B54992B596B5300F3CF37 /* main.swift */,
+			);
+			path = MySwiftSandBox;
+			sourceTree = "<group>";
+		};
+		F2AC9E202CA1781000B28D25 /* Objective-C Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC9E222CA178D100B28D25 /* MyObjCClass.h */,
+				F2AC9E242CA1790B00B28D25 /* MyObjCClass.m */,
+				F2AC9E232CA1790B00B28D25 /* MySwiftSandBox-Bridging-Header.h */,
+			);
+			path = "Objective-C Files";
+			sourceTree = "<group>";
+		};
+		F2BEFDA72C9787C20044497E /* Genin Tasks */ = {
+			isa = PBXGroup;
+			children = (
 				F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */,
 				F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */,
 				F2A28EDF2B5A6C4D009CF589 /* AverageNumberCalculator.swift */,
 				F2A28EE12B5A6FA4009CF589 /* BinaryConverter.swift */,
 			);
-			path = MySwiftSandBox;
+			path = "Genin Tasks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +129,7 @@
 				TargetAttributes = {
 					F22B54952B596B5300F3CF37 = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
@@ -136,6 +160,7 @@
 				F2A28EE22B5A6FA4009CF589 /* BinaryConverter.swift in Sources */,
 				F22B54A12B59717900F3CF37 /* AlphabetGuessingGame.swift in Sources */,
 				F2A28EE02B5A6C4D009CF589 /* AverageNumberCalculator.swift in Sources */,
+				F2AC9E252CA1790B00B28D25 /* MyObjCClass.m in Sources */,
 				F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,11 +289,14 @@
 		F22B549E2B596B5300F3CF37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftSandBox/Objective-C Files/MySwiftSandBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -276,11 +304,13 @@
 		F22B549F2B596B5300F3CF37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftSandBox/Objective-C Files/MySwiftSandBox-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
