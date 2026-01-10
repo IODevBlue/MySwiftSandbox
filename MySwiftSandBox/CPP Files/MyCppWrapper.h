@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)init;
 - (int)addWithA:(int)a b:(int)b;
-- (void)greetWithName:(NSString *)name;
+- (void)greetWithName:(NSString*)name;
 
 @end
 

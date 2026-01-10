@@ -13,8 +13,10 @@
 		F22B549A2B596B5300F3CF37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54992B596B5300F3CF37 /* main.swift */; };
 		F22B54A12B59717900F3CF37 /* AlphabetGuessingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */; };
 		F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */; };
+		F28C68C82F11969E00CCAB11 /* ObsoleteFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C68C72F11969E00CCAB11 /* ObsoleteFunctions.swift */; };
 		F2A28EE02B5A6C4D009CF589 /* AverageNumberCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A28EDF2B5A6C4D009CF589 /* AverageNumberCalculator.swift */; };
 		F2A28EE22B5A6FA4009CF589 /* BinaryConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A28EE12B5A6FA4009CF589 /* BinaryConverter.swift */; };
+		F2AB9C1E2E7AFD1D005B06FE /* UnicodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB9C1D2E7AFD1D005B06FE /* UnicodeHelper.swift */; };
 		F2AC9E252CA1790B00B28D25 /* MyObjCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC9E242CA1790B00B28D25 /* MyObjCClass.m */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +42,11 @@
 		F22B54992B596B5300F3CF37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F22B54A02B59717900F3CF37 /* AlphabetGuessingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetGuessingGame.swift; sourceTree = "<group>"; };
 		F22B54A22B598E8900F3CF37 /* ArraySumCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySumCalculator.swift; sourceTree = "<group>"; };
+		F28C68C72F11969E00CCAB11 /* ObsoleteFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsoleteFunctions.swift; sourceTree = "<group>"; };
 		F2A28EDF2B5A6C4D009CF589 /* AverageNumberCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageNumberCalculator.swift; sourceTree = "<group>"; };
 		F2A28EE12B5A6FA4009CF589 /* BinaryConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryConverter.swift; sourceTree = "<group>"; };
+		F2AB9C1B2E7ADA72005B06FE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F2AB9C1D2E7AFD1D005B06FE /* UnicodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodeHelper.swift; sourceTree = "<group>"; };
 		F2AC9E222CA178D100B28D25 /* MyObjCClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObjCClass.h; sourceTree = "<group>"; };
 		F2AC9E232CA1790B00B28D25 /* MySwiftSandBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySwiftSandBox-Bridging-Header.h"; sourceTree = "<group>"; };
 		F2AC9E242CA1790B00B28D25 /* MyObjCClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObjCClass.m; sourceTree = "<group>"; };
@@ -80,6 +85,7 @@
 		F22B548D2B596B5300F3CF37 = {
 			isa = PBXGroup;
 			children = (
+				F2AB9C1B2E7ADA72005B06FE /* .gitignore */,
 				F22B54982B596B5300F3CF37 /* MySwiftSandBox */,
 				F22B54972B596B5300F3CF37 /* Products */,
 			);
@@ -96,6 +102,7 @@
 		F22B54982B596B5300F3CF37 /* MySwiftSandBox */ = {
 			isa = PBXGroup;
 			children = (
+				F2AB9C1C2E7AFD05005B06FE /* Swift Files */,
 				F20883142CA1C6ED009D83F8 /* CPP Files */,
 				F20883102CA1B2AD009D83F8 /* C Files */,
 				F2AC9E202CA1781000B28D25 /* Objective-C Files */,
@@ -104,6 +111,15 @@
 				F2AC9E232CA1790B00B28D25 /* MySwiftSandBox-Bridging-Header.h */,
 			);
 			path = MySwiftSandBox;
+			sourceTree = "<group>";
+		};
+		F2AB9C1C2E7AFD05005B06FE /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AB9C1D2E7AFD1D005B06FE /* UnicodeHelper.swift */,
+				F28C68C72F11969E00CCAB11 /* ObsoleteFunctions.swift */,
+			);
+			path = "Swift Files";
 			sourceTree = "<group>";
 		};
 		F2AC9E202CA1781000B28D25 /* Objective-C Files */ = {
@@ -154,7 +170,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					F22B54952B596B5300F3CF37 = {
 						CreatedOnToolsVersion = 15.1;
@@ -189,11 +205,13 @@
 				F22B549A2B596B5300F3CF37 /* main.swift in Sources */,
 				F2A28EE22B5A6FA4009CF589 /* BinaryConverter.swift in Sources */,
 				F20883132CA1B73F009D83F8 /* my_c_functions.c in Sources */,
+				F28C68C82F11969E00CCAB11 /* ObsoleteFunctions.swift in Sources */,
 				F22B54A12B59717900F3CF37 /* AlphabetGuessingGame.swift in Sources */,
 				F2A28EE02B5A6C4D009CF589 /* AverageNumberCalculator.swift in Sources */,
 				F2AC9E252CA1790B00B28D25 /* MyObjCClass.m in Sources */,
 				F22B54A32B598E8900F3CF37 /* ArraySumCalculator.swift in Sources */,
 				F20883162CA1C70D009D83F8 /* my_cpp_library.hpp in Sources */,
+				F2AB9C1E2E7AFD1D005B06FE /* UnicodeHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +252,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -297,6 +316,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -323,6 +343,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,6 +359,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

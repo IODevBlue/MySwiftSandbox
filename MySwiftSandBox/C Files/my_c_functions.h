@@ -11,6 +11,6 @@
 #include <stdio.h>
 
 int addNumbers(int a, int b);
-void increment(int *value);
+void increment(int* value);
 
 #endif /* my_c_functions_h */
